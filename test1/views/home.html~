@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>home</title>
+	    <style type="text/css">
+	    	.p1{
+	    		font-size: 30px;
+	    	}
+	    	.p2{
+	    		font-size: 12px;
+	    	}
+	    	#box1{
+	    		height: 420px;
+	    		width: 500px;
+	    	}
+	    	#box1 #box2{
+	    		height: 300px;
+	    		width: 300px;
+	    	}
+	    	#box2{
+	    		width: 850px;
+	    	}
+	    </style>
+	</head>
+	<body>
+                <BODY background='./1.jpg'>
+                 <audio autoplay="autoplay">
+		                <source src="img/双笙 - 小幸运.mp3" type="audio/mp3"></source>
+		        	</audio>
+		<div id="box1">
+		<h1>Home</h1>
+		<a href="./home.html" class="ref"><font color="cornflowerblue">home</font></a>
+		<a href="login.html" class="ref"><font color="cornflowerblue">login</font></a>
+		<a href="./register.html" class="ref"><font color="cornflowerblue">register</font></a><br />
+		<p class="p2"><b>用户:test1</b></p>
+		<p class="p1"><b>欢迎登陆</b></p>
+		<a href="https://www.baidu.com"><font color="cornflowerblue">退出</font></a>
+		</div>
+		<div id="box2" align="right" >
+			<p>请输入您的昵称:
+			<input type="text" placeholder="昵称" style="width: 140px;height: 25px;"/>
+			   <input type="button" value="进入"/></p><br />
+		</div>
+	</body>
+</html>

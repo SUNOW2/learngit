@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Welcome</title>
+		<style type="text/css">
+			.p1{
+				font-size: 35px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1><b>HOME</b></h1>
+			<a href="./home.html" class="ref"><font color="cornflowerblue">home</font></a>
+		    <a href="./login.html" class="ref"><font color="cornflowerblue">login</font></a>
+		    <a href="./register.html" class="ref"><font color="cornflowerblue">register</font></a><br />
+		    <p class="p1"><b>Welcome to Home</b></p>
+		    <a href="https://www.baidu.com">退出</a>
+		</div>
+	</body>
+</html>

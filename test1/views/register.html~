@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title >登陆</title>
+		<style type="text/javascript">
+			.aa{
+				font-size: 50px;
+			}
+			#h1{
+				font-size: 80px;
+			}
+			.ref{
+				font-family: "微软雅黑";
+			}
+		</style>
+	</head>
+	<body>
+		<!--<iframe name="test" height="400" width="1300"></iframe>-->
+		<h1>注册</h1><br />
+		<form action="" method="post">
+			<a href="./home.html" class="ref"><font color="cornflowerblue">home</font></a>
+			<a href="./login.html" class="ref"><font color="cornflowerblue">login</font></a>
+			<a href="/.register.html" class="ref"><font color="cornflowerblue">register</font></a><br />
+			用户名<br /><input type="text" class="aa" placeholder="用户名"/><br />
+			密码<br /><input type="password" class="aa" placeholder="密码" />
+		    <br /><a href="./"><input type="submit" name="cc" value="登陆"/></a>
+		</form>
+		<a href="./home"></a>
+	</body>
+</html>

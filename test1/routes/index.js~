@@ -1,0 +1,28 @@
+
+/*
+ * GET home page.
+ */
+sql=require("./sql.js");
+exports.index = function(req, res){
+
+	  res.render('index', {
+		   title: 'Express' });
+};
+exports.login=function(req,res){
+
+	sql.searchdata(req.body.name,req.body.passwd);
+	if(ifexistkey=1)
+	{
+		ifexistkey=0;
+	}
+	else
+	{
+
+		console.log('用户名不存在');
+	}
+	
+};
+exports.register=function(req,res){
+	console.log(req.body.name);
+	sql.insertdata(req.body.name,req.body.passwd);
+}
